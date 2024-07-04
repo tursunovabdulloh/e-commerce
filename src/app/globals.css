@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  text-decoration: noen;
+}
+a {
+  color: transparent;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 1440px;
+  padding-inline: 20px;
+  margin: 0 auto;
+}
